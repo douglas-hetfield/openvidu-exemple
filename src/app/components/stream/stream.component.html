@@ -1,0 +1,5 @@
+
+<div class="OT_widget-container" *ngIf="user && user.streamManager" [id]="'container-' + this.user.streamManager.stream.streamId">
+    <ov-video #videoComponent [streamManager]="user.streamManager" [mutedSound]="mutedSound" [isBackCamera]="user.isBackCamera()"></ov-video>
+</div>
+
