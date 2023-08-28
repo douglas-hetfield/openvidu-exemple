@@ -1,0 +1,44 @@
+#body{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .loading{
+        color: white;
+        display: grid;
+        font-size: 18px;
+
+        img{
+            width: 50px;
+            margin: auto;
+        }
+
+        span{
+            margin-top: 10px;
+        }
+    }
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 200px;
+    width: 300px;
+    border: 2px solid black;
+
+    input, button{
+        width: 150px;
+        margin-bottom: 5px;
+    }
+}
